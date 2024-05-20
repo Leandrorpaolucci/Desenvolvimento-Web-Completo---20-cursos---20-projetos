@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h2>LISTA DE PRODUTOS</h2>
+
+    <table border="2" width="450">
+
+        <tr> <!--Linha 1-->
+            <th>Código</th> <!-- coluna + th diferenciação no tipo da escrita-->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr> <!--Linha 2-->
+            <td>001</td> <!--Coluna 2-->
+            <td>
+                <img src="https://i.zst.com.br/thumbs/12/3d/34/-1162794238.jpg" width="100">
+            </td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr> <!--Linha 2-->
+            <td>002</td> <!--Coluna 2-->
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWlsjgG8amuXBwwRTWA4y89TgDEE1pgXTuC3BpC_081FX_trQR4VBfJvDjW0fT4luGUsk&usqp=CAU"
+                    width="100">
+            </td>
+            <td>R$ 999,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom -R$ 10</td> <!--colspan Extensão da coluna-->
+
+        </tr>
+        <tr>
+
+            <td colspan="2">Cupom -R$ 12</td> <!--colspan Extensão da coluna-->
+        </tr>
+        <tr>
+            <th>Total</th>
+            <td colspan="2">3.478,98</td>
+        </tr>
+    </table>
+</body>
+
+</html>
