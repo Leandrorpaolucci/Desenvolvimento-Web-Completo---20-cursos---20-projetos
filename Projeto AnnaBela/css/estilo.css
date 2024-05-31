@@ -23,7 +23,17 @@ a {
     color: #4b566a;
     text-decoration: none;
     font-weight: bold;
-
     padding: 5px;
 }
 
+#rodape {
+    text-align: center;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+.img-campanha {
+    border: 10px solid #c3c3ae;
+}

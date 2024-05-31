@@ -1,0 +1,48 @@
+/*
+Modelo Cixa
+
+*/
+
+#principal {
+    border: 1px solid red;
+    background: green;
+
+}
+
+
+.conteudo {
+  border: 1px solid red;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.conteudo2 {
+  border: 1px solid blue;
+  margin: 50px;
+  width: 150px;
+}
+
+#noticia {
+  background: #f9f9f9;
+  border: 1px solid rgb(15, 137, 158);
+  padding: 10px;
+}
+
+h2 {
+  border: 1px solid red;
+  margin: 0px;
+}
+
+.conteudo-zero {
+  background: red;
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
